@@ -14,6 +14,7 @@
 .right {
     right: 0;
     background-color: white;
+    
 }
 .centered {
     position: absolute;
@@ -25,6 +26,12 @@
     position: absolute;
     text-align: left;
     top: 30%;
+    left: 20%;
+}
+.log{
+    position: absolute;
+    text-align: left;
+    top: 2%;
     left: 20%;
 }
 img{
@@ -49,7 +56,7 @@ p{
     font-size: 15px;
     font-family: sans-serif;
 }
-button{
+.lg2{
     border-radius: 20px;
     width: 400px;
     height: 40px;
@@ -61,8 +68,27 @@ button{
     margin-top: 8px;
     margin-bottom: 13px;
     background-color: lightblue !important;
-    
+    border-radius: 20px;
+    border-color: lightblue;
+    width: 400px;
+    height: 40px;
 }
 h1 {
     font-family: sans-serif;
 }
+input{
+    width: 200px;
+    height: 20px;
+    border-radius: 5px;
+    background-color:transparent;
+    border-color: lightblue;
+}
+.lg1{
+    border-radius: 20px;
+    width: 90px;
+    height: 25px;
+    background-color: lightblue;
+    border-color: lightblue;
+    font-family: sans-serif;
+}
+
